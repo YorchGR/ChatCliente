@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatParteCliente</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enviar">Enviar</string>
+    <string name="img">img</string>
+    <string name="nombre">Introduce tu nombre de usuario</string>
+    <string name="tamaño">Tamaño máximo</string>
+    <string name="lista">Lista de usuarios</string>
+</resources>

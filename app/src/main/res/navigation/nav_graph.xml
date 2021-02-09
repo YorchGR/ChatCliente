@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nombreUser">
+
+    <fragment
+        android:id="@+id/chatCliente"
+        android:name="com.jorgelopezendrina.chatpartecliente.view.ChatCliente"
+        android:label="fg_chat_cliente"
+        tools:layout="@layout/fg_chat_cliente" />
+    <fragment
+        android:id="@+id/nombreUser"
+        android:name="com.jorgelopezendrina.chatpartecliente.view.NombreUser"
+        android:label="fg_nombre_user"
+        tools:layout="@layout/fg_nombre_user" >
+        <action
+            android:id="@+id/ac_nombreUser_to_chatCliente"
+            app:destination="@id/chatCliente" />
+    </fragment>
+</navigation>
